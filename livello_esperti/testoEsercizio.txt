@@ -1,0 +1,28 @@
+
+
+
+	
+Laurea in Informatica, Corso di
+Fondamenti di Programmazione
+Edizione dell'a.a. 2010/2011 (Proff. Nicola Galesi, Riccardo Silvestri)
+
+Esercizio Q.20091208-7: casino.c
+Conoscenze necessarie per lo svolgimento: Arrays, Iteration
+
+
+
+Testo
+
+Un mazzo di 52 carte da poker si può rappresentare mediante 2 array paralleli: int valore[52] e int seme[52], di modo che, per ogni i tra 1 e 52, il valore della i-esima carta del mazzo è memorizzato in valore[i-1] (che può assumere i valori da 1 a 13 per, rispettivamente: Asso, 2, ..., 10, J, Q, K), mentre il suo seme in seme[i-1] (che può assumere i valori da 1 a 4 per, rispettivamente, Cuori, Quadri, Picche, Fiori).
+
+Scrivere una funzione void shuffle(int valore[52], int seme[52]) che mescoli il mazzo di carte passato come argomento. In particolare, dopo il mescolamento, la probabilità di trovare una particolare carta in una particolare posizione deve essere uniforme.
+
+Scrivere poi un programma che realizzi il seguente gioco tra N giocatori umani ed il computer (il banco). Inizialmente, ogni giocatore ha un uguale numero di fiche. Ad ogni mano:
+
+   1. ogni giocatore effettua una puntata di una fiche;
+   2. il banco distribuisce una carta (la prima del mazzo mescolato) ad ognuno degli N giocatori;
+   3. il giocatore con la carta più alta vince tutte le fiche puntate nella mano corrente;
+   4. se c'è più di un singolo giocatore con la carta più alta, il banco prende tutto. 
+
+Il gioco termina quando le carte restanti del mazzo sono meno del numero di giocatori.
+Il programma deve simulare il gioco, visualizzando il numero di fiche a disposizione di ogni giocatore ad ogni mano. 

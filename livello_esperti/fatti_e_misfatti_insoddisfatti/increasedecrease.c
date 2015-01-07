@@ -1,0 +1,1 @@
+/** Scrivere una algoritmo per decidere se in un array con un numero di elementi pari t[0,...,2N-1] gli elementi di indice pari sono ordinati in ordine crescente e quelli di indice dispari in ordine decrescente. **/
