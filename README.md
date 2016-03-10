@@ -1,4 +1,24 @@
 # c
-c code
+c code(https://en.wikipedia.org/wiki/C_%28programming_language%29)
 
-Esercizi ed esempi per entrare nel mondo della programmazione in C.
+Il C è un linguaggio di programmazione ad alto livello[1][2][3] che integra caratteristiche dei linguaggi di basso livello, come il linguaggio macchina e l'assembly, per questo si usa anche l'espressione "di medio livello".
+
+Il C è rinomato per la sua efficienza, e si è imposto come linguaggio di riferimento per la realizzazione di software di sistema su gran parte delle piattaforme hardware moderne. La standardizzazione del linguaggio (da parte dell'ANSI prima e dell'ISO poi) garantisce la portabilità dei programmi scritti in C (standard, spesso detto ANSI C) su qualsiasi piattaforma.
+
+Oltre che per il software di sistema, il C è stato a lungo il linguaggio dominante in tutta una serie di altri domini applicativi caratterizzati da forte enfasi sull'efficienza. Esempi tipici sono le telecomunicazioni, il controllo di processi industriali e il software real-time. Oggi il predominio del C in questi contesti è in parte diminuito a seguito dell'avvento di competitor significativi, primo fra tutti il C++.
+
+Il C ha, e continua ad avere, anche una notevole importanza didattica, sebbene, per la sua complessità semantica e per le forti relazioni di tale semantica con il funzionamento dell'hardware dei computer, non si tratti di un linguaggio particolarmente intuitivo per i principianti, e in special modo a quelli sprovvisti di un adeguato background sull'elettronica dei calcolatori. Se un tempo scuole superiori e corsi universitari adottavano il C come linguaggio di riferimento a causa della sua importanza tecnica, oggi questa scelta trova un'ulteriore motivazione nella crescente importanza di linguaggi che dal C derivano (per esempio C++, Java e C# e, per consentire allo studente un approccio iniziale più rapido ed intuitivo, linguaggi ad alto livello come Python).
+
+Il C è un linguaggio di programmazione relativamente minimalista; la sua semantica utilizza un insieme ristretto di concetti relativamente semplici e vicini al funzionamento dell'hardware dei calcolatori; molte istruzioni C sono traducibili direttamente con una singola istruzione di linguaggio macchina (per esempio, gli operatori di autoincremento e autodecremento). Nel linguaggio un ruolo centrale viene svolto dal concetto di puntatore, che viene generalizzato fino a coincidere con l'indirizzamento indiretto, un modo di accedere alla memoria hardware caratteristico di tutte le moderne CPU. Questo rende il C un linguaggio particolarmente efficiente. D'altra parte, rispetto al linguaggio assembly il C ha in più una struttura logica definita e leggibile, funzioni in stile Pascal e soprattutto il controllo sui tipi (in fase di compilazione), che manca completamente in assembly.
+
+La sintassi del C è piuttosto versatile e il linguaggio è in forma libera, permettendo di scrivere istruzioni complesse in poche righe di codice, o di creare programmi criptici e illeggibili (offuscamento del codice). In definitiva, il successo del C fu decretato dall'essere un linguaggio creato da programmatori esperti, per essere usato da programmatori esperti.
+
+Questa grande libertà, la complessità sintattica del linguaggio (che come abbiamo visto contiene poche istruzioni di base) e il ruolo centrale dei puntatori, che è necessario usare praticamente fin dai primi programmi, ne fanno viceversa un linguaggio ostico e sconsigliabile ai neofiti, che cadono quasi subito in una serie di trappole che, se pure ovvie per un esperto, sono molto difficili da individuare per un principiante.
+
+Grazie alla particolare efficienza del codice prodotto dai suoi compilatori, il C venne utilizzato per riscrivere la maggior parte del codice del sistema UNIX, riducendo l'uso dell'assembly ad un piccolo gruppo di funzioni. La sua importanza tuttavia, crebbe solo dopo il 1978 con la pubblicazione da parte di Brian Kernighan e Dennis Ritchie del libro The C Programming Language nel quale il linguaggio venne definito in modo preciso.
+
+Il suo successivo larghissimo utilizzo portò alla nascita di diversi dialetti e quindi alla necessità di definirne uno standard: a questo scopo nell'estate del 1983 venne nominato un comitato con il compito di creare uno standard ANSI (American National Standards Institute) che definisse il linguaggio C una volta per tutte. Il processo di standardizzazione, il quale richiese sei anni (molto più del previsto), terminò nel dicembre del 1989, e le prime copie si resero disponibili agli inizi del 1990. Questa versione del C è normalmente chiamata C89. Lo standard venne anche adottato dall'International Organisation for Standardisation (ISO) nel 1999 con il nome di C Standard ANSI/ISO. Nel 1995 fu adottato l'Emendamento 1 al C Standard che, fra le altre cose, ha aggiunto nuove funzioni alla libreria standard del linguaggio. Usando come documento base il C89 con l'Emendamento 1, e unendovi l'uso delle classi di Simula, Bjarne Stroustrup iniziò a sviluppare il C++.
+
+Il risultato finale del continuo sviluppo del C fu lo standard promulgato nel 1999, noto come ISO C99 (codice ISO 9899).
+
+Con l'ultima versione C11 (2011) vengono lievemente rivisti alcuni comandi.
